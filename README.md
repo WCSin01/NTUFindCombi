@@ -41,3 +41,5 @@ If the course does not have a schedule, GenerateSchedule will prompt and still c
 3.
 If the course combination in the excel sheet does not have a viable combination, FindCombi will prompt.
 Pls choose which courses you want to forgo and remove it, then run FindCombi again.
+
+P.S. I'm not a CS student.
