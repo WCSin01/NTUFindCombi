@@ -4,11 +4,13 @@ Generates schedule for Nanyang Technological University (NTU) STARS and finds vi
 ## Prerequisites
 1. python
 2. pip
+3. chromedriver (selenium) (Save in the same directory as the other files)
 
 ## Instructions
 1. Save your courses under Plan 3. It do not need to be a valid combination.
 2. In cmd:
 	```
+	cd C:/<directory>
 	pip install -r requirements.txt
 	python GenerateSchedule.py
 	```
