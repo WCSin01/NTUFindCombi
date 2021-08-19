@@ -1,5 +1,5 @@
 # NTUFindCombi
-Generates schedule for NTU STARS and finds viable combinations ranked by minimal time wastage.
+Generates schedule for Nanyang Technological University (NTU) STARS and finds viable combinations ranked by minimal time wastage.
 
 ## Prerequisites
 1. python
