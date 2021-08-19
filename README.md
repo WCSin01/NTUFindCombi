@@ -1,11 +1,24 @@
 # NTUFindCombi
 Generates schedule for NTU STARS and finds viable combinations ranked by minimal time wastage.
 
+## Prerequisites
+1. python
+2. pip
+
 ## Instructions
 1. Save your courses under Plan 3. It do not need to be a valid combination.
-2. Run GenerateSchedule. Key in your username and password for NTU LDAP. The script will not save your login information.
-3. Run FindCombi. Key in your travel time.
-4. Open Viable Combinations.xlsx
+2. In cmd:
+	```
+	pip install -r requirements.txt
+	python GenerateSchedule.py
+	```
+3. Key in your username and password for NTU LDAP. The script will not save your login information.
+4. In cmd:
+	```
+	python FindCombi.py
+	```
+5. Key in your travel time.
+6. Open Viable Combinations.xlsx
 
 ### Using the output
 1. There will be MANY viable combinations.
@@ -18,7 +31,7 @@ Generates schedule for NTU STARS and finds viable combinations ranked by minimal
 
 ## Potential problems and fixes
 1.
-If the website structure changes, GenerateListing will not work. You can create your own schedule and continue from step 3.
+If the website structure changes, GenerateListing will not work. You can create your own schedule and continue from step 5.
 The column headings are as follows: Course, Index, Type, Group, Day, Time, Venue, Remark
 Only Course, Index, Day, Time, Remark are strictly necessary. The remaining columns can be blank columns.
 
